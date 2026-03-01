@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 90 20% 98%;
+    --foreground: 150 30% 12%;
+
+    --card: 90 25% 97%;
+    --card-foreground: 150 30% 12%;
+
+    --popover: 90 25% 97%;
+    --popover-foreground: 150 30% 12%;
+
+    --primary: 142 45% 32%;
+    --primary-foreground: 90 20% 98%;
+
+    --secondary: 35 40% 92%;
+    --secondary-foreground: 35 50% 25%;
+
+    --muted: 90 15% 92%;
+    --muted-foreground: 150 10% 45%;
+
+    --accent: 82 60% 45%;
+    --accent-foreground: 90 20% 98%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 70% 40%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 38 100% 15%;
+
+    --border: 90 20% 88%;
+    --input: 90 20% 88%;
+    --ring: 142 45% 32%;
+
+    --radius: 0.75rem;
+
+    /* Custom design tokens */
+    --leaf-gradient: linear-gradient(135deg, hsl(142 45% 32%) 0%, hsl(82 60% 45%) 100%);
+    --earth-gradient: linear-gradient(180deg, hsl(35 40% 92%) 0%, hsl(90 25% 97%) 100%);
+    --glow-primary: 0 8px 32px -8px hsl(142 45% 32% / 0.35);
+    --glow-accent: 0 8px 32px -8px hsl(82 60% 45% / 0.35);
+    --glass: hsl(90 25% 97% / 0.8);
+    --glass-border: hsl(90 20% 88% / 0.5);
+
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+
+    --sidebar-background: 90 20% 96%;
+    --sidebar-foreground: 150 30% 12%;
+    --sidebar-primary: 142 45% 32%;
+    --sidebar-primary-foreground: 90 20% 98%;
+    --sidebar-accent: 82 60% 45%;
+    --sidebar-accent-foreground: 90 20% 98%;
+    --sidebar-border: 90 20% 88%;
+    --sidebar-ring: 142 45% 32%;
+  }
+
+  .dark {
+    --background: 150 25% 8%;
+    --foreground: 90 20% 95%;
+
+    --card: 150 20% 12%;
+    --card-foreground: 90 20% 95%;
+
+    --popover: 150 20% 12%;
+    --popover-foreground: 90 20% 95%;
+
+    --primary: 142 50% 45%;
+    --primary-foreground: 150 25% 8%;
+
+    --secondary: 35 30% 18%;
+    --secondary-foreground: 35 40% 85%;
+
+    --muted: 150 15% 18%;
+    --muted-foreground: 90 10% 60%;
+
+    --accent: 82 55% 50%;
+    --accent-foreground: 150 25% 8%;
+
+    --destructive: 0 65% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 60% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 85% 45%;
+    --warning-foreground: 38 100% 95%;
+
+    --border: 150 15% 20%;
+    --input: 150 15% 20%;
+    --ring: 142 50% 45%;
+
+    --leaf-gradient: linear-gradient(135deg, hsl(142 50% 45%) 0%, hsl(82 55% 50%) 100%);
+    --earth-gradient: linear-gradient(180deg, hsl(150 20% 12%) 0%, hsl(150 25% 8%) 100%);
+    --glow-primary: 0 8px 32px -8px hsl(142 50% 45% / 0.4);
+    --glow-accent: 0 8px 32px -8px hsl(82 55% 50% / 0.4);
+    --glass: hsl(150 20% 12% / 0.8);
+    --glass-border: hsl(150 15% 20% / 0.5);
+
+    --sidebar-background: 150 20% 10%;
+    --sidebar-foreground: 90 20% 95%;
+    --sidebar-primary: 142 50% 45%;
+    --sidebar-primary-foreground: 150 25% 8%;
+    --sidebar-accent: 82 55% 50%;
+    --sidebar-accent-foreground: 150 25% 8%;
+    --sidebar-border: 150 15% 20%;
+    --sidebar-ring: 142 50% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .leaf-gradient {
+    background: var(--leaf-gradient);
+  }
+
+  .earth-gradient {
+    background: var(--earth-gradient);
+  }
+
+  .glow-primary {
+    box-shadow: var(--glow-primary);
+  }
+
+  .glow-accent {
+    box-shadow: var(--glow-accent);
+  }
+
+  .glass {
+    background: var(--glass);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+  }
+
+  .text-gradient {
+    background: var(--leaf-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

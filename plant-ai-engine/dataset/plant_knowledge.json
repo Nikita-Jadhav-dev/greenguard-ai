@@ -1,0 +1,247 @@
+[
+{
+"disease":"Apple___Apple_scab",
+"symptoms":"Olive green or brown velvety spots on leaves and fruit",
+"cause":"Fungus Venturia inaequalis",
+"treatment":"Apply captan or myclobutanil fungicide",
+"prevention":"Remove infected leaves and ensure good airflow"
+},
+{
+"disease":"Apple___Black_rot",
+"symptoms":"Dark circular lesions on leaves and fruit",
+"cause":"Fungus Botryosphaeria obtusa",
+"treatment":"Apply copper fungicide",
+"prevention":"Prune infected branches"
+},
+{
+"disease":"Apple___Cedar_apple_rust",
+"symptoms":"Yellow spots on leaves with orange pustules",
+"cause":"Gymnosporangium juniperi-virginianae fungus",
+"treatment":"Use sulfur fungicide",
+"prevention":"Remove nearby juniper hosts"
+},
+{
+"disease":"Apple___healthy",
+"symptoms":"No disease symptoms present",
+"cause":"Healthy plant",
+"treatment":"No treatment required",
+"prevention":"Maintain proper watering and nutrients"
+},
+{
+"disease":"Blueberry___healthy",
+"symptoms":"Leaves are green and free from lesions",
+"cause":"Healthy plant",
+"treatment":"No treatment needed",
+"prevention":"Maintain soil acidity and proper irrigation"
+},
+{
+"disease":"Cherry___Powdery_mildew",
+"symptoms":"White powdery coating on leaves",
+"cause":"Podosphaera clandestina fungus",
+"treatment":"Apply potassium bicarbonate fungicide",
+"prevention":"Ensure good sunlight exposure"
+},
+{
+"disease":"Cherry___healthy",
+"symptoms":"Leaves appear green and normal",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Proper irrigation and pruning"
+},
+{
+"disease":"Corn___Cercospora_leaf_spot Gray_leaf_spot",
+"symptoms":"Rectangular gray lesions on leaves",
+"cause":"Cercospora zeae-maydis fungus",
+"treatment":"Apply fungicides such as azoxystrobin",
+"prevention":"Crop rotation and residue management"
+},
+{
+"disease":"Corn___Common_rust",
+"symptoms":"Small reddish-brown pustules on leaves",
+"cause":"Puccinia sorghi fungus",
+"treatment":"Apply fungicides if severe",
+"prevention":"Plant resistant hybrids"
+},
+{
+"disease":"Corn___Northern_Leaf_Blight",
+"symptoms":"Long gray-green lesions on leaves",
+"cause":"Exserohilum turcicum fungus",
+"treatment":"Use foliar fungicide",
+"prevention":"Crop rotation"
+},
+{
+"disease":"Corn___healthy",
+"symptoms":"Leaves are green and vigorous",
+"cause":"Healthy plant",
+"treatment":"No treatment needed",
+"prevention":"Maintain soil fertility"
+},
+{
+"disease":"Grape___Black_rot",
+"symptoms":"Brown circular spots on leaves and fruit rot",
+"cause":"Guignardia bidwellii fungus",
+"treatment":"Apply myclobutanil fungicide",
+"prevention":"Prune infected vines"
+},
+{
+"disease":"Grape___Esca_(Black_Measles)",
+"symptoms":"Dark streaks on leaves and berries",
+"cause":"Complex fungal pathogens",
+"treatment":"Remove infected wood",
+"prevention":"Proper vineyard sanitation"
+},
+{
+"disease":"Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+"symptoms":"Angular brown spots on leaves",
+"cause":"Isariopsis clavispora fungus",
+"treatment":"Use fungicide sprays",
+"prevention":"Improve air circulation"
+},
+{
+"disease":"Grape___healthy",
+"symptoms":"Healthy green leaves",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Balanced fertilization"
+},
+{
+"disease":"Orange___Haunglongbing_(Citrus_greening)",
+"symptoms":"Yellow shoots and misshapen fruit",
+"cause":"Bacterial infection spread by psyllids",
+"treatment":"Remove infected trees",
+"prevention":"Control psyllid insects"
+},
+{
+"disease":"Peach___Bacterial_spot",
+"symptoms":"Dark spots on leaves and fruit",
+"cause":"Xanthomonas bacteria",
+"treatment":"Apply copper bactericide",
+"prevention":"Plant resistant varieties"
+},
+{
+"disease":"Peach___healthy",
+"symptoms":"Healthy leaves and fruit",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Maintain orchard hygiene"
+},
+{
+"disease":"Pepper,_bell___Bacterial_spot",
+"symptoms":"Small dark lesions on leaves",
+"cause":"Xanthomonas campestris bacteria",
+"treatment":"Apply copper-based bactericides",
+"prevention":"Avoid overhead irrigation"
+},
+{
+"disease":"Pepper,_bell___healthy",
+"symptoms":"Green healthy leaves",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Proper crop spacing"
+},
+{
+"disease":"Potato___Early_blight",
+"symptoms":"Brown spots with concentric rings",
+"cause":"Alternaria solani fungus",
+"treatment":"Apply chlorothalonil fungicide",
+"prevention":"Crop rotation"
+},
+{
+"disease":"Potato___Late_blight",
+"symptoms":"Dark water soaked lesions",
+"cause":"Phytophthora infestans fungus",
+"treatment":"Apply copper fungicide",
+"prevention":"Avoid leaf wetness"
+},
+{
+"disease":"Potato___healthy",
+"symptoms":"Leaves green and normal",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Maintain soil health"
+},
+{
+"disease":"Strawberry___Leaf_scorch",
+"symptoms":"Purple or reddish spots on leaves",
+"cause":"Diplocarpon earlianum fungus",
+"treatment":"Apply fungicide",
+"prevention":"Improve airflow"
+},
+{
+"disease":"Strawberry___healthy",
+"symptoms":"Healthy leaves",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Avoid overcrowding"
+},
+{
+"disease":"Tomato___Bacterial_spot",
+"symptoms":"Small black lesions on leaves",
+"cause":"Xanthomonas bacteria",
+"treatment":"Copper-based sprays",
+"prevention":"Use certified seeds"
+},
+{
+"disease":"Tomato___Early_blight",
+"symptoms":"Brown spots with concentric rings",
+"cause":"Alternaria solani fungus",
+"treatment":"Apply chlorothalonil fungicide",
+"prevention":"Avoid overhead watering"
+},
+{
+"disease":"Tomato___Late_blight",
+"symptoms":"Dark lesions on leaves and stems",
+"cause":"Phytophthora infestans fungus",
+"treatment":"Apply copper fungicide",
+"prevention":"Improve air circulation"
+},
+{
+"disease":"Tomato___Leaf_Mold",
+"symptoms":"Yellow spots on leaves with mold underside",
+"cause":"Passalora fulva fungus",
+"treatment":"Use fungicide spray",
+"prevention":"Reduce humidity"
+},
+{
+"disease":"Tomato___Septoria_leaf_spot",
+"symptoms":"Small circular spots with dark border",
+"cause":"Septoria lycopersici fungus",
+"treatment":"Apply fungicide",
+"prevention":"Remove infected leaves"
+},
+{
+"disease":"Tomato___Spider_mites Two-spotted_spider_mite",
+"symptoms":"Tiny yellow speckles and webbing",
+"cause":"Spider mites infestation",
+"treatment":"Apply miticide or neem oil",
+"prevention":"Maintain humidity"
+},
+{
+"disease":"Tomato___Target_Spot",
+"symptoms":"Brown target-shaped spots",
+"cause":"Corynespora cassiicola fungus",
+"treatment":"Apply fungicide",
+"prevention":"Avoid leaf wetness"
+},
+{
+"disease":"Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+"symptoms":"Yellow curled leaves and stunted growth",
+"cause":"Viral infection spread by whiteflies",
+"treatment":"Remove infected plants",
+"prevention":"Control whiteflies"
+},
+{
+"disease":"Tomato___Tomato_mosaic_virus",
+"symptoms":"Mottled green and yellow leaves",
+"cause":"Tobacco mosaic virus",
+"treatment":"Remove infected plants",
+"prevention":"Disinfect tools"
+},
+{
+"disease":"Tomato___healthy",
+"symptoms":"Healthy green leaves",
+"cause":"Healthy plant",
+"treatment":"None required",
+"prevention":"Balanced fertilization"
+}
+]

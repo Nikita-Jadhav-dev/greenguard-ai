@@ -1,0 +1,15 @@
+tensorflow
+numpy
+pillow
+opencv-python
+fastapi
+uvicorn
+python-multipart
+
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+
+beautifulsoup4
+requests
